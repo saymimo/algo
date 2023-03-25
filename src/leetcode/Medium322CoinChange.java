@@ -9,25 +9,24 @@ public class Medium322CoinChange {
      * 你可以认为每种硬币的数量是无限的。
      *
      * 示例1：
-     *
      * 输入：coins = [1, 2, 5], amount = 11
      * 输出：3
      * 解释：11 = 5 + 5 + 1
-     * 示例 2：
      *
+     * 示例 2：
      * 输入：coins = [2], amount = 3
      * 输出：-1
-     * 示例 3：
      *
+     *  示例 3：
      * 输入：coins = [1], amount = 0
      * 输出：0
      *
-     * 来源：力扣（LeetCode）
      * 链接：https://leetcode.cn/problems/coin-change
      * @param amount
      * @param coins
      * @return
      */
+
     public int coinChange(int amount, int[] coins){
         int unMax = amount + 1;
         int[] arr = new int[amount + 1];
